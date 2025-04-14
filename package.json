@@ -1,0 +1,32 @@
+{
+  "name": "chat_app",
+  "module": "src/server.ts",
+  "author": "Kumar_Raj",
+  "version": "1.0.0",
+  "description": "A chating platform where u can share ur thoughts",
+  "keywords": [
+    "Awsome",
+    "chat",
+    "new",
+    "hot",
+    "treand"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "socket.io": "^4.8.1"
+  }
+}
